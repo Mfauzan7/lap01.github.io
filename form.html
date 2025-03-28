@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Mahasiswa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjdvdHB0dThmZ3ZyeWFrcGNpcjM5YWk1bXFpNHozYjNsZGx4Nm43NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U3qYN8S0j3bpK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #00ff99, #ff00ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .neon-border {
+            border: 2px solid rgba(0, 255, 153, 0.7);
+            box-shadow: 0 0 10px rgba(0, 255, 153, 0.7);
+        }
+    </style>
+</head>
+<body class="p-5 flex flex-col items-center">
+    <h1 class="text-4xl font-bold gradient-text mb-5">Form Data Mahasiswa</h1>
+    <form action="gif.html" method="GET" class="bg-black p-8 rounded-lg shadow-lg neon-border w-full max-w-md">
+        <label for="nama" class="block text-lg mb-2">Nama:</label>
+        <input type="text" id="nama" name="nama" required class="w-full p-2 mb-4 text-black rounded">
+        
+        <label for="nim" class="block text-lg mb-2">NIM:</label>
+        <input type="text" id="nim" name="nim" required class="w-full p-2 mb-4 text-black rounded">
+        
+        <label for="jurusan" class="block text-lg mb-2">Jurusan:</label>
+        <input type="text" id="jurusan" name="jurusan" required class="w-full p-2 mb-4 text-black rounded">
+        
+        <button type="submit" class="bg-green-500 px-6 py-3 rounded neon-border w-full text-black font-bold">Submit</button>
+    </form>
+</body>
+<a href="index.html" class="mt-6 inline-block px-6 py-2 bg-green-500 text-white font-bold rounded-lg shadow-md hover:bg-green-400">Kembali ke Home</a>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teman Favorit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjdvdHB0dThmZ3ZyeWFrcGNpcjM5YWk1bXFpNHozYjNsZGx4Nm43NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U3qYN8S0j3bpK/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #00ff99, #ff00ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .neon-border {
+            border: 2px solid rgba(0, 255, 153, 0.7);
+            box-shadow: 0 0 10px rgba(0, 255, 153, 0.7);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: rgba(0, 255, 153, 0.3);
+        }
+    </style>
+</head>
+<body class="p-5">
+    <header class="flex justify-between items-center p-5">
+        <h1 class="text-3xl font-bold gradient-text">Teman Favorit</h1>
+        <nav>
+            <ul class="flex space-x-5">
+                <li><a href="index.html" class="hover:text-green-400">Home</a></li>
+                <li><a href="soal.html" class="hover:text-green-400">Laporan Teori</a></li>
+                <li><a href="form.html" class="hover:text-green-400">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="text-center my-10">
+        <h2 class="text-4xl font-bold gradient-text">Daftar Teman Favorit di Kelas</h2>
+    </section>
+    
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>NIM</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Arya Bima Danuputra</td>
+            <td>202332065</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Radithya Putra Dewanto</td>
+            <td>202332024</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Fikri Naufal Rahmadiko</td>
+            <td>202332085</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Fabianus Hans Hamonangan Lumban Tobing</td>
+            <td>202332037</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Aulia Yasmin</td>
+            <td>202332081</td>
+        </tr>
+    </table>
+    
+    <footer class="text-center py-5 mt-10">
+        <p class="text-gray-500">© Muchtar Fauzan Aminuddin | 202332059</p>
+    </footer>
+</body>
+</html>
